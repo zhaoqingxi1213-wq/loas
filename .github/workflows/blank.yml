@@ -2,7 +2,7 @@ name: Ubuntu
 on: push
 jobs:
   Ubuntu:
-    [runs-on: gpu, ubuntu-latest]
+    runs-on: [gpu, ubuntu-latest]
     steps:
     - name: Setup Debug Session
       uses: csexton/debugger-action@master
